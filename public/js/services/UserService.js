@@ -25,15 +25,20 @@
         }
 
         function createUser(userObject) {
-        	return $http.post(baseUrl, userObject)
+        	return $http.post(baseUrl + userObject)
         }
 
-        function getOneUser(userId) {}
+        function getOneUser(userId) {
+            return $http.post(baseUrl + userId)
+        }
 
-        function updateUser(userId, updateInfo) {}
+        function updateUser(userId, updateObject) {
+            return $http.post(baseUrl + updateObject)
+        }
 
-        function deleteUser(userId) {}
+        function deleteUser(userId) {
+            return $http.delete(baseUrl + userId)
+        }
 
     }
-
 })();
