@@ -38,7 +38,7 @@
         }
 
         function deletePost(postId) {
-        	return $http.get(baseUrl + postId)
+        	return $http.delete(baseUrl + postId)
         }
 
     }
