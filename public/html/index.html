@@ -8,15 +8,17 @@
 </head>
 <body>
 	
+<p>this is index content</p>
 
-	<div ng-controller="SimpleController">
-		{{message}}
-	</div>
+	<div ng-view></div>
+
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
 	<script src="js/app.js"></script>
-	<script src="js/controllers/SimpleController.js"></script>
+	<script src="js/routes.js"></script>
+	<script type="text/javascript" src="js/controllers/HomeController.js"></script>
+	<script src="js/controllers/PostController.js"></script>
 	<script src="js/services/UserService.js"></script>
 </body>
 </html>
