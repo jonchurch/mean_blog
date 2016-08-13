@@ -1,0 +1,16 @@
+#post-body {
+	font-size: 18px
+}
+
+
+#comment-section {
+	margin-top: 20px;
+	margin-left: -15%;
+	margin-right: -15%;
+	margin-bottom: -10%;
+	/*background-color: #E8E8EE;*/
+}
+
+#comment-section h3 {
+	margin-top: 5px;
+}
